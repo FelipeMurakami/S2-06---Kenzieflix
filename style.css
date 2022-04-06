@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+html, body, main, header, div, p, a, h1, h2, ul, nav, section, img, figure{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+
+ul, ol{
+    list-style: none;
+}
+
+body{
+    background-color: #121214;
+    font-family:"IBM Plex Sans";
+}
+.cabecalho{
+    
+    width: 100%;
+    text-align: center;
+    
+}
+
+.logo{
+    width: 100%;
+    height: 68px;
+    margin-top: 42px;
+    font-size: ;
+    text-align: center;
+    
+}
+
+.pergunta{
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 73px ;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+
+
+
+.usuarios{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+
+.listuser{
+    display: flex;
+    margin-top: 61px;
+}
+
+li{
+    margin:0px 13px; 
+    
+}
+
+figure{
+    font-weight: 500;
+    color: #9C9C9C;
+}
+
+figure:hover{
+    color: gainsboro;
+}
+
+
+
+figcaption{
+    margin-top: 16px;
+}
+
+
+.img1 {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;        
+}
+
+.img1:hover{
+    border: 1.5px solid white;
+}
+
+.img1 img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
+
+.img2{
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.img2:hover{
+    border: 1.5px solid white;
+}
+
+.img2 img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
+
+.img3{
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+} 
+
+.img3:hover{
+    border: 1.5px solid white;
+}
+
+.img3 img:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
+
+.add{
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    background-color: #1E1E20;
+} 
+
+
+.add:hover{
+    outline: 1.5px solid white;
+}
+
+
+.img-pai:hover{
+    filter: brightness(2); 
+    
+  
+}
+
+
+.botao{
+    display: flex;
+    margin-top: 136px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    align-items: center;      
+}
+
+button{
+    display: flex;
+    border: 1.5px solid white ;
+    background-color: #121214;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: #121214;
+    transition: 0.5s;
+}
+
